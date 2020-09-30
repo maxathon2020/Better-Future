@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_internet_msg">Your connection seem to be off.</string>
+    <string name="error_generic">Server is busy, please try again.</string>
+    <string name="permission_request">Please grant permission access to continue.</string>
+</resources>

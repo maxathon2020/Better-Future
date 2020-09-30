@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FancyEditText">
+        <attr name="editTextHint" format="string" />
+        <attr name="clearEnable" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="FancyTextView">
+        <attr name="textViewHint" format="string" />
+    </declare-styleable>
+    <declare-styleable name="OptionRowView">
+        <attr name="rowViewHint" format="string" />
+    </declare-styleable>
+</resources>

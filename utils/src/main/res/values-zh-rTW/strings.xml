@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="error_internet_msg">您的連接似乎已關閉。</string>
+    <string name="error_generic">服務器託管，請稍後重試。</string>
+    <string name="permission_request">請授予訪問權限以繼續使用。</string>
+</resources>

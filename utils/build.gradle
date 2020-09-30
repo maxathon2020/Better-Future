@@ -1,0 +1,35 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 29
+
+    defaultConfig {
+        minSdkVersion 23
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'com.google.android.material:material:1.1.0'
+    implementation 'me.dm7.barcodescanner:zxing:1.9.13'
+
+    implementation 'top.zibin:Luban:1.1.8'
+    implementation 'com.jakewharton.timber:timber:4.7.1'
+}
